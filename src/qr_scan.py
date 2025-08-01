@@ -21,7 +21,7 @@ while (cap.isOpened()):
 
         barcode_data = d.data.decode('utf-8')
         barcode_type = d.type
-        cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 2)
+        #cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 2)
         
         #print(d.data.decode('utf-8'))
         #barcode_data = d.data.decode('utf-8')
